@@ -1,8 +1,0 @@
-1. What type of graph would you use to model the problem input (detailed in the Section 3.1), and how would you construct this graph? (I.e., what do the vertices, edges, etc., correspond to?) Be specific here; we discussed a number of different types of graphs in class. 
-
-The vertices of the graph would represent each cell in the 3d matrix and the edges would represent where the spider can actually travel. This graph is a simple, undirected, unweighted, unlabeled graph. Each vertex is the set of the binary 6 digits and the edges are determined with the number 1 in the 6 digit binary code stating which direction there is an edge. 
-
-
-2. What algorithm will you use to solve the problem? Be sure to describe not just the general algorithm you will use, but how you will identify the sequence of moves the spider must take in order to reach the goal. 
-
-I will use an adjacency matrix to hold the values of the binary bits separately to create the graph and edges. I will then go through DFS to traverse through the graph to find a path from the start point to the end point. 
